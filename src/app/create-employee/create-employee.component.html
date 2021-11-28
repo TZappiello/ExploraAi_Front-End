@@ -1,0 +1,36 @@
+<div class="row" id="divPrincipal">
+    <div class="card col-md-6 offset-md-3 offset-md-3" id="divForm">
+        <div class="card-body">
+            <h3 class="text-center"> Cadastrar Usuário </h3>
+            <form (ngSubmit)="onSubmit()">
+                <!-- nome -->
+                <div class="form-group">
+                    <label> Nome </label>
+                    <input type="text" class="form-control inputText" id="nome" [(ngModel)]="employee.nome" name="nome">
+                </div>
+
+                <!-- lastName -->
+                <div class="form-group">
+                    <label> Email </label>
+                    <input type="text" class="form-control inputText" id="email" [(ngModel)]="employee.email"
+                        name="email">
+                </div>
+
+                <!-- emailId -->
+                <div class="form-group">
+                    <label> Senha</label>
+                    <!-- <input type="text" class="form-control" id="senha" [(ngModel)]="employee.senha"
+                            name="senha"> -->
+                    <input type="password" id="senha" class="form-control inputText" [(ngModel)]="employee.senha"
+                        name="senha">
+                </div>
+
+                <br />
+                <button class="btn btn-success" type="submit"> Salvar </button>
+
+                <a href="../home"><button class="btn btn-success" type="button"> Voltar Menu
+                    </button></a>
+            </form>
+        </div>
+    </div>
+</div>

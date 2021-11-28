@@ -1,0 +1,34 @@
+h1{
+    color: black;
+}
+
+b{
+    font-size: 25px;
+    color: black;
+}
+
+.campos{
+    font-size: 25px;
+    color: black; 
+}
+
+.divDefault{
+    background-color: rgb(54,84,58, 0.8);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 15px;
+	border: solid;
+	border-color: black;
+}
+
+.btn-success{
+    background-color: rgba(81, 204, 97, 0.9);
+    border-radius: 15px;
+	border: solid;
+	border-color: black;
+    color: black;
+    width: fit-content;
+    margin-bottom: 2%;
+}
