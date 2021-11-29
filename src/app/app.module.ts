@@ -9,7 +9,6 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component'
 import { HomeComponent } from './home/home.component';
-import { RegistrationComponent } from './registration/registration.component';
 import { Page401Component } from './page401/page401.component';
 
 @NgModule({
@@ -20,7 +19,6 @@ import { Page401Component } from './page401/page401.component';
     UpdateEmployeeComponent,
     EmployeeDetailsComponent,
     HomeComponent,
-    RegistrationComponent,
     Page401Component
   ],
   imports: [

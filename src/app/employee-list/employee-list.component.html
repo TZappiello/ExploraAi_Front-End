@@ -1,10 +1,9 @@
 <div id="titulo">
     <h1> Usuários Cadastrados </h1>
     <a href="../home"><button class="btn btn-success btnVoltar" type="button"> Voltar Home
-    </button></a>
+        </button></a>
 </div>
-
-<table class = "table table-striped table-bordered" id="tblUsuarios">
+<table class="table table-striped table-bordered" id="tblUsuarios">
     <thead>
         <tr>
             <th> Nome</th>
@@ -14,19 +13,18 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor = "let employee of employees" >
+        <tr *ngFor="let employee of employees">
             <td id="tdNome"> {{ employee.nome }} </td>
             <td> {{ employee.email }} </td>
-            <td>   <input type="password" id="senha" class="form-control" [(ngModel)]="employee.senha"
-                name="senha" disabled="disabled"></td>
-            
+            <td> <input type="password" id="senha" class="form-control" [(ngModel)]="employee.senha" name="senha"
+                    disabled="disabled"></td>
             <td id="tdAcao">
-                <button (click) = "updateEmployee(employee.id)" class = "btn btn-success btnAtualizar"> Atualizar </button>
-                <button (click) = "deleteEmployee(employee.id)" class = "btn btn-success btnDeletar" style="margin-left: 10px"> Deletar </button>
-                <button (click) = "employeeDetails(employee.id)" class = "btn btn-success btnMostrar" style="margin-left: 10px"> Mostrar </button>
+                <button (click)="updateEmployee(employee.id)" class="btn btn-success btnAtualizar"> Atualizar </button>
+                <button (click)="deleteEmployee(employee.id)" class="btn btn-success btnDeletar"
+                    style="margin-left: 10px"> Deletar </button>
+                <button (click)="employeeDetails(employee.id)" class="btn btn-success btnMostrar"
+                    style="margin-left: 10px"> Mostrar </button>
             </td>
         </tr>
     </tbody>
 </table>
-
-

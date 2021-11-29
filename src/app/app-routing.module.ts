@@ -6,7 +6,7 @@ import { UpdateEmployeeComponent } from './update-employee/update-employee.compo
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { HomeComponent } from './home/home.component';
 import { Page401Component } from './page401/page401.component';
-import { RegistrationComponent } from './registration/registration.component';
+
 
 
 const routes: Routes = [
@@ -17,7 +17,6 @@ const routes: Routes = [
   {path: 'employee-details/:id', component: EmployeeDetailsComponent},
   {path:'', component:HomeComponent},
   {path:'home', component:HomeComponent},
-  {path:'registration', component:RegistrationComponent},
   {path: '**',component:Page401Component}
 ];
 

@@ -3,29 +3,22 @@
         <div class="card-body">
             <h3 class="text-center"> Atualizar Usuário </h3>
             <form (ngSubmit)="onSubmit()">
-                <!-- nome -->
                 <div class="form-group">
                     <label> Nome </label>
                     <input type="text" class="form-control inputText" id="nome" [(ngModel)]="employee.nome" name="nome">
                 </div>
-
-                <!-- lastName -->
                 <div class="form-group">
                     <label> Email </label>
                     <input type="text" class="form-control inputText" id="email" [(ngModel)]="employee.email"
                         name="email">
                 </div>
-
-                <!-- emailId -->
                 <div class="form-group">
                     <label> Senha</label>
                     <input type="text" class="form-control inputText" id="senha" [(ngModel)]="employee.senha"
-                            name="senha">
+                        name="senha">
                 </div>
-
                 <br />
                 <button class="btn btn-success" type="submit"> Salvar </button>
-
                 <a href="../employees"><button class="btn btn-success" type="button"> Voltar
                     </button></a>
             </form>
