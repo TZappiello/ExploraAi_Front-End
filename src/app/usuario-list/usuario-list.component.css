@@ -1,0 +1,94 @@
+th {
+    border: solid;
+    border-color: black;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+tr {
+    border: solid;
+    border-color: black;
+}
+
+td {
+    border: solid;
+    border-color: black;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btnAtualizar {
+    background-color: rgba(81, 204, 97, 0.6);
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    color: black;
+    width: 84px;
+}
+
+.btnMostrar {
+    background-color: rgba(81, 204, 97, 0.6);
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    color: black;
+    width: 84px;
+}
+
+.btnDeletar {
+    background-color: rgba(248, 12, 12, 0.6);
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    color: black;
+    width: 84px;
+}
+
+.btnVoltar {
+    background-color: rgba(81, 204, 97, 0.9);
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    color: black;
+    width: 30%;
+    margin-bottom: 3%;
+}
+
+#tblUsuarios {
+    background-color: rgb(54, 84, 58, 0.7);
+    border: solid;
+    border-color: black;
+    width: 90%;
+    margin: 2% 0% 0% 5%;
+}
+
+#tdNome {
+    width: 300px;
+}
+
+#tdAcao {
+    width: 300px;
+}
+
+#titulo {
+    text-align: center;
+    background-color: rgb(54, 84, 58, 0.7);
+    width: 480px;
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    font-size: 48px;
+    color: black;
+    font-weight: 600;
+}
+
+#senha {
+    background-color: rgba(125, 180, 132, 0.7);
+    border-radius: 15px;
+    border: solid 1px;
+    border-color: black;
+}

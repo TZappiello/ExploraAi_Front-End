@@ -1,0 +1,39 @@
+label {
+    font-size: 28px;
+    color: black;
+    margin-left: 265px;
+}
+
+h3 {
+    font-size: 40px;
+    color: black;
+}
+
+.inputText {
+    background-color: rgb(227, 229, 213);
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    color: black;
+}
+
+.btn-success {
+    background-color: rgba(81, 204, 97, 0.9);
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    color: black;
+    width: 20%;
+    margin-left: 20%;
+}
+
+#divPrincipal {
+    margin-top: 5%;
+}
+
+#divForm {
+    background-color: rgb(54, 84, 58, 0.7);
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+}
